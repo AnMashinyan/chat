@@ -1,4 +1,4 @@
-Run git clone https://github.com/AnMashinyan/chat_app.git
+Run git clone https://github.com/AnMashinyan/chat.git
 
 Run composer install
 
