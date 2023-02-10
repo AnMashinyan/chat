@@ -2,11 +2,9 @@ Run git clone https://github.com/AnMashinyan/chat.git
 
 Run composer install
 
-Rename '.env.example' file to '.env'
-
-Create database 'chat' with phpMyAdmin.
-
 Create .env file and copy everything from .env.example
+
+Create database with phpMyAdmin.
 
 Write the db name in .env file
 
