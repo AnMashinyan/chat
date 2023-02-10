@@ -12,8 +12,6 @@ Run php artisan migrate
 
 Run php artisan optimize
 
-Open command line , run this code – php artisan serve.
+Run php artisan serve.
 
-Open command line , run this code - php artisan websocket:init.
-
-Open the url.
+Run php artisan websocket:init.
