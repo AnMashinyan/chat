@@ -37,7 +37,7 @@ class SampleController extends Controller
             'password' => Hash::make($data['password'])
         ]);
 
-        return redirect('login')->with('success');
+        return redirect('login')->with('success', 'Registration completed.You can login');
     }
 
     function validate_login(Request $request)
@@ -58,7 +58,8 @@ class SampleController extends Controller
             return redirect('dashboard');
         }
 
-        return redirect('login');
+        return redirect('login')->with('success', 'Login details are not valid');
+
     }
 
     function dashboard()
